@@ -94,10 +94,19 @@ div.sidebar{
 	outline:0;
 	float:left;
 }
+div.content-unlimited{
+	background-color: #ffffff;
+    width: 85%;
+    padding: 25px;
+    margin-top: 0px;
+	margin-bottom: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+}
 div.content{
 	background-color: #ffffff;
     width: 85%;
-	height: 1080px;
+	height: 100%;
     padding: 25px;
     margin-top: 0px;
 	margin-bottom: 0px;
