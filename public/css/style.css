@@ -83,7 +83,6 @@ a.active{
 	color:#DBFFA9;
 }
 div.sidebar{
-	margin:0px;
 	text-align: center;
 	background-color: #575135;
 	color: white;
@@ -92,6 +91,8 @@ div.sidebar{
 	width: 15%;
 	padding:0;
 	outline:0;
+	margin:0;
+	border:0;
 	float:left;
 }
 div.content-unlimited{
@@ -106,7 +107,7 @@ div.content-unlimited{
 div.content{
 	background-color: #ffffff;
     width: 85%;
-	height: 100%;
+	height: 150%;
     padding: 25px;
     margin-top: 0px;
 	margin-bottom: 0px;
@@ -123,6 +124,8 @@ div.content2{
 	margin-bottom: 0px;
 	border-top: 0px;
 	border-bottom: 0px;
+	border-left:0px;
+	margin-left;0px:
 }
 div.content3{
 	float:right;
@@ -142,11 +145,15 @@ div.content3{
 	text-align:left;
 }
 h3.sidebar{
-	color:#575135;
-	font-size:24px;
-	background-color:#DBFFA9;
-	width:116%;
-	text-align:left;
+	color:#ffffff;
+	font-size:32px;
+	font-family:Arya;
+	text-align:center;
+}
+div.block{
+	background-color:Green;
+	width:100%;
+	float:center;
 }
 div.akce{
 	margin-top: 0;
@@ -206,6 +213,7 @@ div.footer{
 	padding-right: 25px;
 	padding-left: 25px;
 	outline:0;
+	position:bottom;
 	
 }
 #abilities{
