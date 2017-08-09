@@ -349,4 +349,9 @@ p.center{
 }
 div.inner-content{
 	text-align:justify;
+	padding:0;
+	margin:25;
+}
+img{
+	margin-left:25;
 }
